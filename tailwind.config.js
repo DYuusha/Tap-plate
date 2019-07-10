@@ -14,7 +14,10 @@ module.exports = {
 
       black: '#000',
       white: '#fff',
-
+      newblue: '#1D42B1', //newcolors since here
+      titleblue: '#1335B9',
+      newgreen: '#88D65C',
+      graytitle: '#B3B3B3',
       gray: {
         100: '#f7fafc',
         200: '#edf2f7',
@@ -124,7 +127,10 @@ module.exports = {
         700: '#b83280',
         800: '#97266d',
         900: '#702459'
-      }
+      },
+      
+      
+      
     },
     spacing: {
       px: '1px',

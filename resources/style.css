@@ -1,0 +1,40 @@
+.bg-gradient{
+    background:linear-gradient(286.28deg, #8BDA5A 5.61%, #1435B9 101.4%);}
+.comerciosFont{
+    line-height: 22px;
+    letter-spacing: 5.33333px;
+    color: #b3b3b3;
+}
+.semiblackText{
+    color: #4A4A4A;
+    line-height: 20px;
+}
+.semiblackTitle{
+    color: #4A4A4A;
+    line-height: 44px;
+}
+.preguntasColor{
+    color: #312F2E;
+}
+.preguntasTitle{
+    line-height: 41px;
+}
+.preguntasTexto{
+    color:#848484;
+}
+.respuestasTexto{
+    color: #7F7F7F;
+}
+.bg-grayPreguntas{
+    background: #FAFAFA;
+}
+.inputGray{
+    color:#A5A5A5;
+}
+.inputLabel{
+    color:#1335B9;
+}
+.formButton{
+    background-color:#1335B9;
+}
+/*comerce */

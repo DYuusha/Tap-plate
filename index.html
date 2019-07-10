@@ -6,15 +6,167 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Nano Studio</title>
     <link rel="stylesheet" href="./public/css/app.css" />
+    <link rel="stylesheet" href="./resources/style.css"/>
     <script src="./public/js/app.js"></script>
   </head>
-  <body class="font-sans">
-    <div
-      class="h-screen flex items-center justify-center text-4xl font-bold text-red-500"
-    >
-      <div>
-        Boilerplate TailwindCSS and Laravel Mix
-      </div>
+  <body >
+    <div class="w-full h-auto font-sans bg-gradient">
+        <nav class="flex items-center justify-between flex-wrap bg-teal pt-6 pl-6 pr-6">
+            <div class="flex items-center flex-no-shrink text-white mr-6">
+              <img src="./resources/images/logo.png" alt="comerce logo"/>
+            </div>
+            <div class="block lg:hidden">
+                <img src="resources/images/menu.png" alt="boxes" />
+            </div>
+            <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+              <div class="text-sm lg:flex-grow">
+                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4">
+                  Home
+                </a>
+                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4">
+                  Comercio
+                </a>
+              </div>
+            </div>
+          </nav>
+          <div class="flex flex-col justify-center w-full items-center text-center">
+              <h1 class="text-white text-3xl font-black">
+                ComerceApp te ayuda a manejar tus reservas
+              </h1>
+              <p class="text-sm text-white font-semibold px-6">
+                ¡La primera aplicación móvil que te permite generar resevas en restaurantes,
+                 doctores, estilo de vida y más en un solo lugar!
+              </p>
+              <div class="flex justify-around pt-2">
+                  <img class="w-32 h-auto pr-2" src="resources//images//buttonApp.png">
+                  <img class="w-32 h-auto" src="resources//images//buttonPlay.png">
+              </div>
+              <div class="flex">
+                <img src="./resources/images/firstbanner.png"/>
+              </div>
+          </div>
     </div>
+    <div class="flex flex-col bg-newblue justify-center items-center text-center">
+        <h2 class="text-white text-3xl font-black py-10">
+            Reserva desde <br/> Cualquier lugar
+        </h2>
+        <p class="text-sm text-white font-semibold px-1">
+            Estés donde estés, a la hora que sea, tu puedes crear tu reserva en cualquiera de los
+             negocios afiliados a ComercioApp. Solamente selecciona tu establecimiento de preferencia, 
+             el día y la hora que deseas reservar y ¡listo!
+        </p>
+        <img class="py-6" src="./resources/images/reserva.png"/>
+    </div>
+    <div class="flex flex-col bg-newgreen justify-center items-center text-center">
+        <h2 class="text-titleblue text-3xl font-black p-10">
+            Encuentra las mejores promociones
+        </h2>
+        <p class="text-sm text-white font-semibold px-1">
+            Dales TAP! y ahorra lo más que puedas. Selecciona la promoción que quieras, dale ¡click! 
+            Al botón de “obtener promoción”, muéstrala en el establecimiento indicado y economiza tus gastos.
+        </p>
+        <img class="py-6" src="./resources/images/promociones.png"/>
+    </div>
+    <div class="flex flex-col bg-newblue justify-center items-center text-center">
+        <h2 class="text-white text-3xl font-black p-10">
+            No vuelvas a perder tu cita
+        </h2>
+        <p class="text-sm text-white font-semibold px-1">
+            Con nuestras notificaciones automáticas, ¡nunca volverás a perder una cita! recibirás un recordatorio 
+            para que puedas planear con tiempo tu visita a tu establecimiento preferido. Si no te es posible atender 
+            a la hora y/o el día que habías reservado, no te preocupes, re-agenda tu cita. Si vas a poder atender, 
+            reconfirmala y ve, te estarán esperando.
+        </p>
+        <img class="py-6" src="./resources/images/cita.png"/>
+    </div>
+    <div class="w-full">
+        <img src="./resources/images/comercios.png" />
+    </div>
+    <div class="flex flex-col w-full justify-center items-center mb-12">
+        <h3 class="comerciosFont mt-8 text-base font-black">COMERCIOS</h3>
+        <h2 class="font-black text-3xl preguntasColor mt-2  text-3xl px-4">¡Aumenta tus ventas!</h2>
+        <p class="preguntasColor text-center text-sm px-10 py-4">
+          Sé parte de nuestros socios estratégicos. Únete a ComerceApp para llegar a más clientes y aumentar tus ventas.
+        </p>
+        <a class="bg-newgreen hover:bg-newblue text-white font-normal py-2 px-10 rounded">Leer más</a>
+    </div>
+    <div class="flex flex-col bg-grayPreguntas justify-center pb-16 items-center text-center">
+          <h2 class="font-black text-3xl preguntasColor mt-12  text-3xl px-4">Preguntas Frecuentes</h2>
+          <p class="text-sm preguntasTexto font-semibold px-6">
+              Lorem ipsum massa imperdiet mi Cras Sed congue erat, lacinia eu pharetra urna.
+          </p>
+          <div class="w-full mt-10">
+              <h3 class="preguntasColor font-bold text-xl  px-6">¿Lorem ipsum massa imperdiet?</h3>
+              <p class="respuestasTexto text-justify text-xl px-6 py-3">Lorem ipsum massa imperdiet mi Cras Sed congue erat, lacinia eu pharetra urna, 
+                orem ipsum massa imperdiet mi Cras Sed congue erat, lacinia eu pharetra urnalopiunydx.
+              </p>
+              <h3 class="preguntasColor font-bold text-xl mt-4 px-6">¿Lorem ipsum massa imperdiet?</h3>
+              <p class="respuestasTexto text-justify text-xl px-6 py-3">Lorem ipsum massa imperdiet mi Cras Sed congue erat, lacinia eu pharetra urna, 
+                orem ipsum massa imperdiet mi Cras Sed congue erat, lacinia eu pharetra urnalopiunydx.
+              </p>
+              <h3 class="preguntasColor font-bold text-xl mt-4 px-6">¿Lorem ipsum massa imperdiet?</h3>
+              <p class="respuestasTexto text-justify text-xl px-6 py-3">Lorem ipsum massa imperdiet mi Cras Sed congue erat, lacinia eu pharetra urna, 
+                orem ipsum massa imperdiet mi Cras Sed congue erat, lacinia eu pharetra urnalopiunydx.
+              </p>
+              <h3 class="preguntasColor font-bold text-xl mt-4 px-6">¿Lorem ipsum massa imperdiet?</h3>
+              <p class="respuestasTexto text-justify text-xl px-6 py-3">Lorem ipsum massa imperdiet mi Cras Sed congue erat, lacinia eu pharetra urna, 
+                orem ipsum massa imperdiet mi Cras Sed congue erat, lacinia eu pharetra urnalopiunydx.
+              </p>
+              <h3 class="preguntasColor font-bold text-xl mt-4 px-6">¿Lorem ipsum massa imperdiet?</h3>
+              <p class="respuestasTexto text-justify text-xl px-6 py-3">Lorem ipsum massa imperdiet mi Cras Sed congue erat, lacinia eu pharetra urna, 
+                orem ipsum massa imperdiet mi Cras Sed congue erat, lacinia eu pharetra urnalopiunydx.
+              </p>
+              <h3 class="preguntasColor font-bold text-xl mt-4 px-6">¿Lorem ipsum massa imperdiet?</h3>
+              <p class="respuestasTexto text-justify text-xl px-6 py-3">Lorem ipsum massa imperdiet mi Cras Sed congue erat, lacinia eu pharetra urna, 
+                orem ipsum massa imperdiet mi Cras Sed congue erat, lacinia eu pharetra urnalopiunydx.
+              </p>
+          </div> 
+    </div>
+    <div class="flex flex-col bg-white justify-center mb-16 items-center text-center">
+        <h2 class="font-black text-2xl preguntasColor mt-6  text-3xl px-4">Contáctanos</h2>
+        <div class="w-full max-w-xs text-left">
+            <form class="bg-white rounded px-8 pt-6 pb-8 mb-4">
+              <div class="mb-4">
+                <label class="block inputLabel text-sm font-bold mb-2" for="username">
+                  Nombre
+                </label>
+                <input class="border-b rounded w-full py-2 px-3 inputGray font-semibold" id="username" type="text" placeholder="Cameron Rogers">
+              </div>
+              <div class="mb-4">
+                <label class="block inputLabel text-sm font-bold mb-2" for="email">
+                  Email
+                </label>
+                <input class="border-b rounded w-full py-2 px-3 inputGray font-semibold mb-3 " id="email" type="Email" placeholder="sheila.legros@hotmail.com">
+              </div>
+              <div class="mb-6">
+                  <label class="block inputLabel text-sm font-bold mb-2" for="mensaje">
+                    Mensaje
+                  </label>
+                  <input class="border-b rounded w-full py-2 px-3 inputGray font-semibold" id="mensaje" type="text" placeholder="Escribe tu consulta…">
+              </div>
+              <div class="flex items-start">
+                <button class="formButton hover:bg-newgreen text-sm text-white font-normal py-2 px-12 rounded" type="button">
+                  Enviar Mensaje
+                </button>
+              </div>  
+            </form>
+          </div>
+    </div>
+    <footer class="flex h-32 bg-black">
+        <div class="flex h-16 flex-wrap items-center px-6">
+            <div class=" flex w-1/2 justify-start py-6">
+                <img style="width:33px; height: 33px; " src="resources/images/footerlogo.png" />
+            </div>
+            <div class="flex w-1/2 justify-around py-6">
+                <img style="width:12px; height: 25px; " src="resources/images/facebook.png" />
+                <img style="width:24px; height: 24px; " src="resources/images/insta.png" />
+                <img style="width:26px; height: 20px; " src="resources/images/twitter.png" />
+            </div>
+            <div class="flex w-full justify-center items-center">
+                <img style="width:13px; height: 13px; " src="resources/images/copyright.png" />
+                <p class="ml-2 text-white text-xs">Comerce. Todos los derechos reservados, 2019</p>
+            </div>
+        </div>
+      </footer>
   </body>
 </html>
