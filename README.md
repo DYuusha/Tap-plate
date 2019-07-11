@@ -1,4 +1,4 @@
-# Boilerplate Tailwind and Laravel Mix
+# Tap Tailwind and Laravel Mix
 
 > Boilerplate using last version of TailwindCSS and Laravel Mix (Webpack Wrapper)
 
