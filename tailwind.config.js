@@ -18,6 +18,8 @@ module.exports = {
       titleblue: '#1335B9',
       newgreen: '#88D65C',
       graytitle: '#B3B3B3',
+      blueservices: '#000D44',
+      grayContact: '#f5f5f5',
       gray: {
         100: '#f7fafc',
         200: '#edf2f7',

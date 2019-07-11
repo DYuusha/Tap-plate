@@ -11,27 +11,28 @@
   </head>
   <body >
     <!-- <div class="w-full bg-center h-auto font-sans bg-no-repeat bg-cover " style="background: url('resources/images/asian.png'), -webkit-linear-gradient(286.28deg, #8BDA5A 5.61%, #1435B9 101.4%);"> -->
-      <div class="w-full h-screen font-sans bg-gradient">  
-        <nav class="flex items-center justify-between flex-wrap bg-teal pt-6 pl-6 pr-6">
-            <div class="flex items-center flex-no-shrink text-white mr-6">
-              <img src="resources/images/logo.png" alt="comerce logo"/>
+      <div class="flex w-full h-screen font-sans" style="background-image: url('resources/images/asian.png'); background-repeat: no-repeat" >  
+        <div class=" w-full h-screen bg-gradient absolute opacity-75" >
+        </div>
+        <nav class="flex w-full items-center justify-between flex-wrap bg-teal pt-6 pl-6 pr-6 z-30 absolute">
+          <div class="flex items-center flex-no-shrink text-white mr-6">
+            <img src="resources/images/logo.png" alt="comerce logo"/>
+          </div>
+          <div class="block md:hidden">
+              <img src="resources/images/menu.png" alt="boxes" />
+          </div>
+          <div class="w-full hidden md:visible block flex-grow md:flex md:items-center md:w-auto">
+            <div class="text-sm md:flex-grow md:flex md:justify-end">
+              <a href="index.html" class="block mt-4 md:inline-block md:mt-0 text-teal-lighter text-white hover:text-newblue mr-4">
+                Home
+              </a>
+              <a href="home.html" class="block mt-4 md:inline-block md:mt-0 text-teal-lighter text-white  hover:text-newblue mr-4">
+                Comercio
+              </a>
             </div>
-            <div class="block lg:hidden">
-                <img src="resources/images/menu.png" alt="boxes" />
-            </div>
-            <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-              <div class="text-sm lg:flex-grow">
-                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4">
-                  Home
-                </a>
-                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4">
-                  Comercio
-                </a>
-                
-              </div>
-            </div>
-          </nav>
-          <div class="flex h-auto py-24 flex-col justify-center w-full items-center text-center">
+          </div>
+        </nav>
+          <div class="flex h-screen py-24 flex-col justify-center w-full items-center text-center absolute">
             <h1 class="text-white text-4xl font-black">
               Mejora tus servicios con nosotros
             </h1>
@@ -77,18 +78,23 @@
           <img class="pl-8 pt-10" src="resources/images/reservaciones.png"/>
           </div> 
     </div>
-    <div class="flex flex-col bg-newblue justify-center items-center text-center">
-        <h2 class="text-white text-3xl font-black p-10 pb-4">
-            Reporteria al instante
-        </h2>
-        <p class="text-sm text-white font-semibold px-1">
-            Al contratar nuestro paquete Premium tienes la oportunidad de obtener toda 
-            la reporteria necesaria para el manejo adecuado y acertado de tu negocio. 
-            Desde reportes de venta generales a reportes de venta específicos de cada 
-            empleado, consumidor, servicio/producto, etc. Obtendrás insight sobre cada 
-            uno de tus clientes actuales y potenciales.
-        </p>    
-        <img class=" pl-8 py-6" src="./resources/images/reportes.png"/>
+    <div class="flex flex-col md:flex-row bg-newblue justify-center items-center text-center">
+        <div class="md:flex md:flex-col md:w-1/2 md:justify-center md:items-center">
+            <h2 class="text-white text-3xl font-black p-10 pb-4">
+                Reporteria al instante
+            </h2>
+            <p class="text-sm text-white font-semibold px-1">
+                Al contratar nuestro paquete Premium tienes la oportunidad de obtener toda 
+                la reporteria necesaria para el manejo adecuado y acertado de tu negocio. 
+                Desde reportes de venta generales a reportes de venta específicos de cada 
+                empleado, consumidor, servicio/producto, etc. Obtendrás insight sobre cada 
+                uno de tus clientes actuales y potenciales.
+            </p> 
+        </div> 
+        <div class="md:w-1/2">
+            <img class=" pl-8 py-6" src="./resources/images/reportes.png"/>
+        </div>  
+        
     </div>
     <div class="flex flex-col bg-white justify-center pb-16 items-center text-center">
         <h2 class="font-black text-3xl preguntasColor mt-12  text-3xl px-4">¡Únete a nuestros comercios!</h2>
@@ -96,46 +102,46 @@
             Lorem ipsum per vehicula nibh Nam at semper per vehicula nibh Nam.        
         </p>
         <div class=" flex flex-wrap w-full mt-6">
-            <div class="w-1/2">
+            <div class="flex justify-center w-1/2 md:w-1/5">
                   <img src="resources/images/subway.png" />
             </div>
-            <div class="w-1/2">
+            <div class="flex justify-center w-1/2 md:w-1/5">
               <img src="resources/images/andian.png" />
             </div>
-            <div class="w-1/2">
+            <div class="flex justify-center w-1/2 md:w-1/5">
               <img src="resources/images/buffalo.png" />
             </div>
-            <div class="w-1/2">
+            <div class="flex justify-center w-1/2 md:w-1/5">
               <img src="resources/images/delikat.png" />
             </div>
-            <div class="w-1/2">
+            <div class="flex justify-center w-1/2 md:w-1/5">
               <img src="resources/images/donli.png" />
             </div>
-            <div class="w-1/2">
+            <div class="flex justify-center w-1/2 md:w-1/5">
               <img src="resources/images/donkey.png" />
             </div>
-            <div class="w-1/2">
+            <div class="flex justify-center w-1/2 md:w-1/5">
               <img src="resources/images/epic.png" />
             </div>
-            <div class="w-1/2">
+            <div class="flex justify-center w-1/2 md:w-1/5">
               <img src="resources/images/fisheria.png" />
             </div>
-            <div class="w-1/2">
+            <div class="flex justify-center w-1/2 md:w-1/5">
               <img src="resources/images/dennys.png" />
             </div>
-            <div class="w-1/2">
+            <div class="flex justify-center w-1/2 md:w-1/5">
               <img src="resources/images/koi.png" />
             </div>
-            <div class="w-1/2">
+            <div class="flex justify-center w-1/2 md:w-1/5">
               <img src="resources/images/subway.png" />
             </div>
-            <div class="w-1/2">
+            <div class="flex justify-center w-1/2 md:w-1/5">
               <img src="resources/images/andian.png" />
             </div>
-            <div class="w-1/2">
+            <div class="flex justify-center w-1/2 md:w-1/5">
               <img src="resources/images/buffalo.png" />
             </div>
-            <div class="w-1/2">
+            <div class="flex justify-center w-1/2 md:w-1/5">
               <img src="resources/images/delikat.png" />
             </div>
             <div class="flex w-full justify-center py-6">
@@ -143,32 +149,54 @@
             </div>
         </div> 
   </div>
-  <div class="flex flex-col bg-white justify-center mb-16 items-center text-center">
-      <h2 class="font-black text-2xl preguntasColor mt-6  text-3xl px-4">Contáctanos</h2>
-      <div class="w-full max-w-xs text-left">
-          <form class="bg-white rounded px-8 pt-6 pb-8 mb-4">
-            <div class="mb-4">
+  <div class="w-full h-auto bg-blueservices md:flex md:flex-wrap">
+      <div class="w-full md:w-1/3 md:flex md:flex-col md:justify-center md:items-center px-4 text-center py-6">
+        <h2 class="font-black text-white text-3xl mt-12  text-3xl ">Planes de Servicios</h2>
+        <p class="text-sm text-white font-semibold px-2">
+          Sé parte de nuestros socios estratégicos. 
+          Únete a ComerceApp para llegar a más clientes y aumentar tus ventas.
+        </p>
+        <div class="flex flex-wrap justify-center items-center pt-6 w-full">
+          <a class="text-newgreen">
+            Leer mas
+          </a>
+          <img src="resources/images//arrow_forward.png" />
+        </div>
+        
+      </div>
+      <div class="w-full md:w-1/3 md:p-16 flex justify-center items-center p-6">
+          <image src="resources/images/basico.png"/>
+      </div>
+      <div class="w-full md:w-1/3 md:p-16 flex justify-center items-center p-6">
+        <image src="resources/images/premium.png"/>
+    </div>
+  </div>
+  <div class="flex flex-col md:h-128  md:w-full md:bg-grayContact bg-white justify-center md:mb-0 mb-16 items-center text-center">
+      <h2 class="font-black text-2xl preguntasColor mt-6  text-3xl px-4 md:mb-6">Contáctanos</h2>
+      <div class="w-full md:max-w-4xl md:bg-white max-w-xs text-left">
+          <form class="md:flex md:w-full md:flex-wrap bg-white rounded px-8 pt-6 pb-8 mb-4">
+            <div class="mb-4 md:flex md:flex-col md:w-1/2 md:px-10">
               <label class="block inputLabel text-sm font-bold mb-2" for="username">
                 Nombre
               </label>
-              <input class="border-b rounded w-full py-2 px-3 inputGray font-semibold" id="username" type="text" placeholder="Cameron Rogers">
+              <input class="border-b rounded w-full py-2 px-3 inputGray font-semibold" id="username" type="text" placeholder="Cameron Rogers" required>
             </div>
-            <div class="mb-4">
+            <div class="mb-4 md:flex md:flex-col md:w-1/2 md:px-10">
               <label class="block inputLabel text-sm font-bold mb-2" for="email">
                 Email
               </label>
-              <input class="border-b rounded w-full py-2 px-3 inputGray font-semibold mb-3 " id="email" type="Email" placeholder="sheila.legros@hotmail.com">
+              <input class="border-b rounded w-full py-2 px-3 inputGray font-semibold mb-3 " id="email" type="Email" placeholder="sheila.legros@hotmail.com" required>
             </div>
-            <div class="mb-6">
+            <div class="mb-6 md:flex md:flex-col md:w-1/2 md:px-10">
                 <label class="block inputLabel text-sm font-bold mb-2" for="mensaje">
                   Mensaje
                 </label>
-                <input class="border-b rounded w-full py-2 px-3 inputGray font-semibold" id="mensaje" type="text" placeholder="Escribe tu consulta…">
+                <input class="border-b rounded w-full py-2 px-3 inputGray font-semibold" id="mensaje" type="text" placeholder="Escribe tu consulta…" required>
             </div>
-            <div class="flex items-start">
-                <button class="formButton hover:bg-newgreen text-sm text-white font-normal py-2 px-12 rounded" type="button">
-                    Enviar Mensaje
-                  </button>
+            <div class="flex items-start md:justify-center md:flex-col md:w-1/2 md:px-10">
+              <button class="formButton hover:bg-newgreen text-sm text-white font-normal py-2 px-12 rounded" type="button">
+                Enviar Mensaje
+              </button>
             </div>  
           </form>
         </div>

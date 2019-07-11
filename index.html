@@ -11,86 +11,109 @@
   </head>
   <body >
     <div class="w-full h-auto font-sans bg-gradient">
-        <nav class="flex items-center justify-between flex-wrap bg-teal pt-6 pl-6 pr-6">
-            <div class="flex items-center flex-no-shrink text-white mr-6">
-              <img src="./resources/images/logo.png" alt="comerce logo"/>
+      <nav class="flex w-full items-center justify-between flex-wrap bg-teal pt-6 pl-6 pr-6 z-30 ">
+        <div class="flex items-center flex-no-shrink text-white mr-6">
+          <img src="resources/images/logo.png" alt="comerce logo"/>
+        </div>
+        <div class="block md:hidden">
+            <img src="resources/images/menu.png" alt="boxes" />
+        </div>
+        <div class="w-full hidden md:visible block flex-grow md:flex md:items-center md:w-auto md:justify-end">
+          <div class="text-sm md:flex-grow md:flex md:justify-end ">
+            <a href="index.html" class="block border-t border-white  mt-4 text-white md:inline-block md:mt-0 text-teal-lighter hover:text-newblue mr-4">
+              Home
+            </a>
+            <a href="home.html" class="block border-t mt-4 md:inline-block md:mt-0 text-white text-teal-lighter hover:text-newblue mr-4">
+              Comercio
+            </a>
+          </div>
+        </div>
+      </nav>
+          <div class="flex flex-col md:flex-row-reverse mt-12 justify-center w-full items-center text-center">
+            <div class="flex flex-col md:w-3/5">
+                <h1 class="text-white md:text-left md:pr-64 md:text-4xl text-3xl font-black">
+                    ComerceApp te ayuda a manejar tus reservas
+                  </h1>
+                  <p class="text-sm text-white md:text-left md:pl-0 md:pr-64 font-semibold px-6">
+                    ¡La primera aplicación móvil que te permite generar resevas en restaurantes,
+                     doctores, estilo de vida y más en un solo lugar!
+                  </p>
+                  <div class="flex justify-center md:justify-start md:pt-6">
+                      <img class="w-32 h-auto pr-2" src="resources/images/buttonApp.png">
+                      <img class="w-32 h-auto" src="resources//images/buttonPlay.png">
+                  </div>
             </div>
-            <div class="block lg:hidden">
-                <img src="resources/images/menu.png" alt="boxes" />
-            </div>
-            <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-              <div class="text-sm lg:flex-grow">
-                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4">
-                  Home
-                </a>
-                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4">
-                  Comercio
-                </a>
-              </div>
-            </div>
-          </nav>
-          <div class="flex flex-col justify-center w-full items-center text-center">
-              <h1 class="text-white text-3xl font-black">
-                ComerceApp te ayuda a manejar tus reservas
-              </h1>
-              <p class="text-sm text-white font-semibold px-6">
-                ¡La primera aplicación móvil que te permite generar resevas en restaurantes,
-                 doctores, estilo de vida y más en un solo lugar!
-              </p>
-              <div class="flex justify-around pt-2">
-                  <img class="w-32 h-auto pr-2" src="resources//images//buttonApp.png">
-                  <img class="w-32 h-auto" src="resources//images//buttonPlay.png">
-              </div>
-              <div class="flex">
+              
+              <div class="flex md:w-2/5">
                 <img src="./resources/images/firstbanner.png"/>
               </div>
           </div>
     </div>
-    <div class="flex flex-col bg-newblue justify-center items-center text-center">
-        <h2 class="text-white text-3xl font-black py-10">
-            Reserva desde <br/> Cualquier lugar
-        </h2>
-        <p class="text-sm text-white font-semibold px-1">
-            Estés donde estés, a la hora que sea, tu puedes crear tu reserva en cualquiera de los
-             negocios afiliados a ComercioApp. Solamente selecciona tu establecimiento de preferencia, 
-             el día y la hora que deseas reservar y ¡listo!
-        </p>
-        <img class="py-6" src="./resources/images/reserva.png"/>
+    <div class="flex flex-col md:flex-row bg-newblue justify-center items-center text-center">
+      <div class="flex flex-col md:w-1/2 md:justify-center md:items-left">
+          <h2 class="text-white md:text-left md:px-32 text-3xl font-black ">
+              Reserva desde
+          </h2>
+          <h2 class="text-white md:text-left md:px-32 text-3xl font-black mb-6">
+              Cualquier lugar
+          </h2>
+          <p class="text-sm text-white md:text-left font-semibold px-1 md:px-32">
+              Estés donde estés, a la hora que sea, tu puedes crear tu reserva en cualquiera de los
+               negocios afiliados a ComercioApp. Solamente selecciona tu establecimiento de preferencia, 
+               el día y la hora que deseas reservar y ¡listo!
+          </p>
+      </div>
+       <div class="flex md:w-1/2 md:justify-center md:items-center">
+          <img class="py-6" src="./resources/images/reserva.png"/>
+       </div> 
+        
     </div>
-    <div class="flex flex-col bg-newgreen justify-center items-center text-center">
-        <h2 class="text-titleblue text-3xl font-black p-10">
+    <div class="flex flex-col md:flex-row bg-newgreen justify-center items-center text-center">
+        <div class="flex flex-col md:w-1/2 md:justify-center md:items-center">
+        <h2 class="text-titleblue md:text-left text-3xl font-black md:py-6 md:p-0 md:px-32 p-10">
             Encuentra las mejores promociones
         </h2>
-        <p class="text-sm text-white font-semibold px-1">
+        <p class="text-sm text-white md:text-left font-semibold px-1 md:px-32">
             Dales TAP! y ahorra lo más que puedas. Selecciona la promoción que quieras, dale ¡click! 
             Al botón de “obtener promoción”, muéstrala en el establecimiento indicado y economiza tus gastos.
         </p>
-        <img class="py-6" src="./resources/images/promociones.png"/>
+        </div>
+        <div class="flex md:w-1/2 md:justify-center md:items-center md:px-32">
+          <img class="py-6" src="./resources/images/promociones.png"/>
+        </div>
     </div>
-    <div class="flex flex-col bg-newblue justify-center items-center text-center">
-        <h2 class="text-white text-3xl font-black p-10">
-            No vuelvas a perder tu cita
-        </h2>
-        <p class="text-sm text-white font-semibold px-1">
-            Con nuestras notificaciones automáticas, ¡nunca volverás a perder una cita! recibirás un recordatorio 
-            para que puedas planear con tiempo tu visita a tu establecimiento preferido. Si no te es posible atender 
-            a la hora y/o el día que habías reservado, no te preocupes, re-agenda tu cita. Si vas a poder atender, 
-            reconfirmala y ve, te estarán esperando.
-        </p>
-        <img class="py-6" src="./resources/images/cita.png"/>
+    <div class="flex flex-col md:flex-row bg-newblue justify-center items-center text-center">
+        <div class="flex flex-col md:w-1/2 md:justify-center md:items-center">
+          <h2 class="text-white md:text-left text-3xl font-black p-10">
+              No vuelvas a perder tu cita
+          </h2>
+          <p class="text-sm text-white md:text-left font-semibold md:px-32 px-1">
+              Con nuestras notificaciones automáticas, ¡nunca volverás a perder una cita! recibirás un recordatorio 
+              para que puedas planear con tiempo tu visita a tu establecimiento preferido. Si no te es posible atender 
+              a la hora y/o el día que habías reservado, no te preocupes, re-agenda tu cita. Si vas a poder atender, 
+              reconfirmala y ve, te estarán esperando.
+          </p>
+        </div>
+        <div class="flex md:w-1/2 md:justify-center md:items-center">
+          <img class="py-6" src="./resources/images/cita.png"/>
+        </div>
+          
+      </div>
+    <div class="w-full flex flex-col md:flex-wrap md:flex-row-reverse">
+        <div class=" md:w-1/2 w-full">
+            <img class="w-full" src="./resources/images/comerciosBig.png" />
+        </div>
+        <div class="flex flex-col md:w-1/2 w-full justify-center items-center mb-12">
+            <h3 class="comerciosFont mt-8 text-base font-black">COMERCIOS</h3>
+            <h2 class="font-black text-3xl preguntasColor mt-2  text-3xl px-4">¡Aumenta tus ventas!</h2>
+            <p class="preguntasColor text-center text-sm px-10 py-4">
+              Sé parte de nuestros socios estratégicos. Únete a ComerceApp para llegar a más clientes y aumentar tus ventas.
+            </p>
+            <a class="bg-newgreen hover:bg-newblue text-white font-normal py-2 px-10 rounded">Leer más</a>
+        </div>
     </div>
-    <div class="w-full">
-        <img src="./resources/images/comercios.png" />
-    </div>
-    <div class="flex flex-col w-full justify-center items-center mb-12">
-        <h3 class="comerciosFont mt-8 text-base font-black">COMERCIOS</h3>
-        <h2 class="font-black text-3xl preguntasColor mt-2  text-3xl px-4">¡Aumenta tus ventas!</h2>
-        <p class="preguntasColor text-center text-sm px-10 py-4">
-          Sé parte de nuestros socios estratégicos. Únete a ComerceApp para llegar a más clientes y aumentar tus ventas.
-        </p>
-        <a class="bg-newgreen hover:bg-newblue text-white font-normal py-2 px-10 rounded">Leer más</a>
-    </div>
-    <div class="flex flex-col bg-grayPreguntas justify-center pb-16 items-center text-center">
+    
+    <div class="flex flex-col md:hidden bg-grayPreguntas justify-center pb-16 items-center text-center">
           <h2 class="font-black text-3xl preguntasColor mt-12  text-3xl px-4">Preguntas Frecuentes</h2>
           <p class="text-sm preguntasTexto font-semibold px-6">
               Lorem ipsum massa imperdiet mi Cras Sed congue erat, lacinia eu pharetra urna.
@@ -122,29 +145,29 @@
               </p>
           </div> 
     </div>
-    <div class="flex flex-col bg-white justify-center mb-16 items-center text-center">
-        <h2 class="font-black text-2xl preguntasColor mt-6  text-3xl px-4">Contáctanos</h2>
-        <div class="w-full max-w-xs text-left">
-            <form class="bg-white rounded px-8 pt-6 pb-8 mb-4">
-              <div class="mb-4">
+    <div class="flex flex-col md:h-128  md:w-full md:bg-grayContact bg-white justify-center md:mb-0 mb-16 items-center text-center">
+        <h2 class="font-black text-2xl preguntasColor mt-6  text-3xl px-4 md:mb-6">Contáctanos</h2>
+        <div class="w-full md:max-w-4xl md:bg-white max-w-xs text-left">
+            <form class="md:flex md:w-full md:flex-wrap bg-white rounded px-8 pt-6 pb-8 mb-4">
+              <div class="mb-4 md:flex md:flex-col md:w-1/2 md:px-10">
                 <label class="block inputLabel text-sm font-bold mb-2" for="username">
                   Nombre
                 </label>
-                <input class="border-b rounded w-full py-2 px-3 inputGray font-semibold" id="username" type="text" placeholder="Cameron Rogers">
+                <input class="border-b rounded w-full py-2 px-3 inputGray font-semibold" id="username" type="text" placeholder="Cameron Rogers" required>
               </div>
-              <div class="mb-4">
+              <div class="mb-4 md:flex md:flex-col md:w-1/2 md:px-10">
                 <label class="block inputLabel text-sm font-bold mb-2" for="email">
                   Email
                 </label>
-                <input class="border-b rounded w-full py-2 px-3 inputGray font-semibold mb-3 " id="email" type="Email" placeholder="sheila.legros@hotmail.com">
+                <input class="border-b rounded w-full py-2 px-3 inputGray font-semibold mb-3 " id="email" type="Email" placeholder="sheila.legros@hotmail.com" required>
               </div>
-              <div class="mb-6">
+              <div class="mb-6 md:flex md:flex-col md:w-1/2 md:px-10">
                   <label class="block inputLabel text-sm font-bold mb-2" for="mensaje">
                     Mensaje
                   </label>
-                  <input class="border-b rounded w-full py-2 px-3 inputGray font-semibold" id="mensaje" type="text" placeholder="Escribe tu consulta…">
+                  <input class="border-b rounded w-full py-2 px-3 inputGray font-semibold" id="mensaje" type="text" placeholder="Escribe tu consulta…" required>
               </div>
-              <div class="flex items-start">
+              <div class="flex items-start md:justify-center md:flex-col md:w-1/2 md:px-10">
                 <button class="formButton hover:bg-newgreen text-sm text-white font-normal py-2 px-12 rounded" type="button">
                   Enviar Mensaje
                 </button>
@@ -152,20 +175,24 @@
             </form>
           </div>
     </div>
-    <footer class="flex h-32 bg-black">
-        <div class="flex h-16 flex-wrap items-center px-6">
+    <footer class="flex h-32 bg-black md:justify-center md:items-center md:pb-6">
+        <div class="flex h-16 flex-wrap md:w-full md:justify-center items-center px-6">
             <div class=" flex w-1/2 justify-start py-6">
                 <img style="width:33px; height: 33px; " src="resources/images/footerlogo.png" />
             </div>
-            <div class="flex w-1/2 justify-around py-6">
-                <img style="width:12px; height: 25px; " src="resources/images/facebook.png" />
-                <img style="width:24px; height: 24px; " src="resources/images/insta.png" />
-                <img style="width:26px; height: 20px; " src="resources/images/twitter.png" />
+            <div class="flex w-1/2 md:justify-center justify-around py-6">
+                <img class="md:mx-8" style="width:12px; height: 25px; " src="resources/images/facebook.png" />
+                <img  style="width:24px; height: 24px; " src="resources/images/insta.png" />
+                <img class="md:mx-8"  style="width:26px; height: 20px; " src="resources/images/twitter.png" />
             </div>
-            <div class="flex w-full justify-center items-center">
+            
+            <div class="flex md:w-1/2 w-full md:items-start md:justify-start justify-center items-center">
                 <img style="width:13px; height: 13px; " src="resources/images/copyright.png" />
-                <p class="ml-2 text-white text-xs">Comerce. Todos los derechos reservados, 2019</p>
+                <p class="ml-4 text-white text-xs">Comerce. Todos los derechos reservados, 2019</p>
             </div>
+            <div class="flex md:w-1/2 md:items-center md:justify-center justify-center items-center">
+              <p class="ml-4 text-white text-xs">Terminos y Condiciones  |  Políticas Privacidad</p>
+          </div>
         </div>
       </footer>
   </body>
