@@ -1,6 +1,6 @@
 # Tap Tailwind and Laravel Mix
 
-> Boilerplate using last version of TailwindCSS and Laravel Mix (Webpack Wrapper)
+> CommerceApp bitlab homework
 
 ## Build Setup
 
